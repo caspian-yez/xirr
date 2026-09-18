@@ -1,0 +1,16 @@
+Source: python3-xirr
+Section: python
+Maintainer: Patrick Ruckstuhl <patrick@ch.tario.org>
+Priority: optional
+Build-Depends:
+	debhelper,
+	python3-all
+
+Package: python3-xirr
+Architecture: all
+Multi-Arch: foreign
+Depends:
+	${misc:Depends},
+	${python3:Depends}
+	python3-scipy
+Description: calc xirr
