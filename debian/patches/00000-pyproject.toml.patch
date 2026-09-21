@@ -1,0 +1,18 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index 6d0dbdd..3c74460 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -38,13 +38,6 @@ docs = [
+     "sphinx_rtd_theme"
+ ]
+ 
+-[build-system]
+-requires = ["hatchling >= 1.26", "uv-dynamic-versioning"]
+-build-backend = "hatchling.build"
+-
+-[tool.hatch.version]
+-source = "uv-dynamic-versioning"
+-
+ [tool.uv-dynamic-versioning]
+ format-jinja = """
+     {%- if distance == 0 -%}

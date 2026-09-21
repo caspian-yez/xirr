@@ -11,6 +11,6 @@ Architecture: all
 Multi-Arch: foreign
 Depends:
 	${misc:Depends},
-	${python3:Depends}
+	${python3:Depends},
 	python3-scipy
 Description: calc xirr
